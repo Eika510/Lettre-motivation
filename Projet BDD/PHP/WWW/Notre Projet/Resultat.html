@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur d'Excuses - Evite ta Colle</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <!-- Header -->
+        <div class="header">
+            <img src="./images/logo-evite-ta-colle.svg" alt="Logo Evite ta Colle">
+        </div>
+
+        <header class="banner">
+            <h1>Générateur d'Excuses</h1>
+            <h2>Préparez votre meilleure excuse en quelques clics !</h2>
+        </header>
+
+        <!-- Formulaire de génération -->
+        <section id="form-section">
+            <h2>Créez une excuse personnalisée</h2>
+            <form id="excuse-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="reason">Raison de l'absence :</label>
+                    <select id="reason" name="reason">
+                        <option value="maladie">Maladie</option>
+                        <option value="transport">Problème de transport</option>
+                        <option value="famille">Urgence familiale</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="details">Détails supplémentaires :</label>
+                    <textarea id="details" name="details" placeholder="Ajoutez des détails pour rendre votre excuse plus crédible..."></textarea>
+                </div>
+
+                <button type="submit" class="cta-button">Générer mon excuse</button>
+            </form>
+        </section>
+
+        <!-- Section du résultat -->
+        <section id="result-section" style="display: none;">
+            <h2>Voici votre excuse :</h2>
+            <div id="excuse-result" class="result-box">
+                <p>Votre excuse apparaîtra ici une fois générée.</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div>
+                <img src="./images/footer-logo.svg" alt="Logo Footer">
+                <div>
+                    <p>Evite ta Colle &copy; 2024. Tous droits réservés.</p>
+                    <p>Contactez-nous : <a href="mailto:support@evitetacolle.com">support@evitetacolle.com</a></p>
+                </div>
+
+                <ul class="logo-list">
+                    <li><img src="./images/facebook.svg" alt="Facebook"></li>
+                    <li><img src="./images/instagram.svg" alt="Instagram"></li>
+                    <li><img src="./images/linkedin.svg" alt="LinkedIn"></li>
+                    <li><img src="./images/x.svg" alt="Twitter"></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

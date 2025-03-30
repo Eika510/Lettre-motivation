@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#container {
+	
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+	position : absolute;
+  
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+	font-family: 'ibm_plex';
+}
+
+h1 {
+	font-size:25px;
+	font-style:bold;
+	color : #4c5abb;
+	font-family:arial;
+}
+
+h2 {
+	font-size:15px;
+	font-style:italic;
+	color : #5e71f5;
+	font-family:arial;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 9rem;
+}
+
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem;
+	background:#cba0e8;
+	flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+#logo {
+	width: 10%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+	margin:5px;
+}
+
+
+
+#buttons {
+    margin-top: 2.5rem;
+	border: red soli 1px;
+	color : white;
+	background : red;
+	border-radius : 10px;
+	margin : 5px;
+	padding :4px;
+	width:10%;
+		
+}
+
+#password {
+    flex: auto;
+	border : grey solid 1px;
+	border-radius : 10px;
+	padding :5px;
+	margin:5px;
+	width:15%;
+	}
+
+
+#username {
+    flex: auto;
+	border : grey solid 1px;
+	border-radius : 10px;
+	padding :5px;
+	margin:5px;
+	width:15%;
+
+}
+
+#form-wrapper {
+    margin: 2rem;
+}
+
+footer {
+    padding: calc(1.5rem + 2.5vw);
+	background:#a21ffb;
+	width:100%;
+	display: flex;
+    flex-direction: column;    
+	align-items: center;
+	gap: 2rem;
+	}
+	
+
+.logo-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+
+
+.resultat {
+	color : red;
+	font-style:italic;
+	align-items: center;
+}
+
+a.lien {
+background: #E7F0FF;
+margin:5px;
+padding:5px;
+border-radius:15px;
+color:black;
+font-size : 2vh;
+}	
+
+a.lien:hover {
+background: #E28BDC;
+margin:5px;
+padding:5px;
+border-radius:15px;
+color:white;
+font-size : 2vh;
+}
+ 
